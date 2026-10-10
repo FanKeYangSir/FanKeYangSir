@@ -1,16 +1,19 @@
-## Hi there 👋
+# VX API — Affordable AI Model Endpoints
 
-<!--
-**FanKeYangSir/FanKeYangSir** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**OpenAI-compatible API for DeepSeek, Qwen, GLM, Kimi and more.**
 
-Here are some ideas to get you started:
+- 🌍 Global access from Los Angeles
+- 💰 40–70% cheaper than going direct
+- 🔑 One API key, many models
+- ⚡ Simple sign-up, no enterprise contract
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Quick start
+
+```bash
+curl https://la-api.vxvxvx.top/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{
+    "model": "deepseek-chat",
+    "messages": [{"role": "user", "content": "Hello"}]
+  }'
